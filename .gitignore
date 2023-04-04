@@ -1,2 +1,4 @@
 package-lock.json
 node_modules/*
+opencv-4.7.0
+opencv2
