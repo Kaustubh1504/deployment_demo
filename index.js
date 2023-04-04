@@ -3,7 +3,7 @@ const {spawn}=require("child_process")
 app=express()
 
 app.get('/',(req,res)=>{
-    // res.status(201).json("app on the cloud :)")
+    
     let dataCompare
     const childPython = spawn('python',['test.py'])
 
